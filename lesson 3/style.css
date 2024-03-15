@@ -82,7 +82,8 @@ header a {
 .maincontainer p {
     font-size: 24px;
     padding: 2% 4% 2% 42%;
-    text-align: left;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .maincontainer p span{
@@ -96,27 +97,32 @@ header a {
 
 .imagecontainer {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    padding: 10px 0px 10px 0px;
+    display: flexbox;
+    justify-content: column;
+    padding: 10px 20px 0px 560px;
     height: 100vh;
-    width: 100vw;
 }
 
 .row1 { 
     display: flex;
-    height: 100vh;
+    height: 320px;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    overflow-x: scroll;
 }
 
 .row2 { 
     display: flex;
-    height: 100vh;
+    height: 320px;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    overflow-x: scroll;
 }
+
+.textp{
+    padding: 20px 0px 20px 0px;
+}
+
 
 .imagecontainer img {
     width: 200px;
@@ -134,10 +140,16 @@ header a {
 
 .footercontainer ul li {
     list-style: none;
+    line-height: 1.2;
 }
 
 .footercontainer p {
     text-align: right;
+}
+
+.footercontainer h4 {
+    font-size: 24px;
+    color: orangered;
 }
 
 .container {
@@ -220,4 +232,21 @@ h4 {
     width: 30px;
     height: 40px;
     text-align: left;
+}
+
+button{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+button a{
+    color: black;
+    font-size: 14px;
+    font-style: bold;
+    text-decoration: none;
 }
