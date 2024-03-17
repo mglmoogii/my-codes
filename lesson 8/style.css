@@ -1,19 +1,24 @@
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  background: #efefef;
+  color: #252525;
+}
 
 /* -------------Navbar CSS coding start from here------------------- */
 
 nav {
   display: flex;
+  width: 100%;
+  height: 60px;
+  
   align-items: center;
   justify-content: space-between;
-  height: 60px;
-  width: 100%;
   background-color: #fff;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
   position: fixed;
@@ -21,81 +26,86 @@ nav {
   top: 0;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  height: 56px;
-}
-
-/* .header img {
-  width: 30px;
-} */
-
-.first-icons {
+.nav-left {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-left: 16px;
 }
 
-.search-box {
-  background: #efefef;
-  width: 350px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
+.nav-left .logo {
+  width: 40px;
+  margin: 5px 8px;
+  cursor: pointer;
 }
 
-.search-box img {
-  width: 18px;
-}
-
-.search-box input {
+.nav-left .logo img {
   width: 100%;
-  background: transparent;
-  padding: 10px;
+  border: 50%;
+}
+
+.nav-left .search-box {
+  width: 230px;
+  height: 40px;
+  background: #efefef;
+  border-radius: 20px;
+  margin-left: 4px;
+  padding: 0 8px;
+  position: relative;
+}
+
+.nav-left .search-box input {
+  background-color: transparent;
   outline: none;
   border: 0;
+  margin-left: 4px;
+  width: 150px;
+  font-size: 16px;
 }
 
-.logo {
-  width: 40px;
-  padding-right: 10px;
+.nav-center {
+  margin-right: 30px;
 }
 
-.middle-icons {
-  display: flex;
-  width: 500px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.middle-icons img {
-  width: 24px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.middle-icons div {
-  display: flex;
-  align-items: center;
-  text-align: center;
+.nav-center i {
   width: 110px;
-  height: 50px;
+  background-color: none;
+  border-radius: 10px;
+  margin-left: 12px;
+  font-size: 22px;
+  padding: 13px 40px;
+  color: #646262;
 }
 
-.last-icons {
+.nav-right {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.last-icons img {
+.nav-right img {
   width: 40px;
-  padding-left: 10px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  line-height: 45px;
+  margin-right: 16px;
+  margin-left: 8px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.bodymain {
+.nav-right i {
+  background: #efefef;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 8px;
+  font-size: 22px;
+  padding: 10px;
+}
+
+/* .bodymain {
   display: flex;
   flex-direction: row;
   background-color: #f0f2f5;
@@ -168,14 +178,13 @@ nav {
   position: relative;
 }
 
-.story img{
+.story img {
   height: auto;
   width: 150px;
   border-radius: 20px;
 }
 
-
-.story1 img{
+.story1 img {
   width: 40px;
 }
 
@@ -199,4 +208,4 @@ nav {
   flex-basis: 15%;
   height: 100vh;
   background-color: chocolate;
-}
+}  */
