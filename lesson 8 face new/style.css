@@ -256,6 +256,10 @@ h4 {
   padding: 5px 0;
 }
 
+.sponsored-link:hover{
+    background: #bcbbbb;
+}
+
 .sponsored-link img {
   width: 100px;
   height: 100px;
@@ -292,6 +296,21 @@ hr {
   justify-content: space-between;
   margin: 4px 12px;
 }
+
+.pages-title i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    color: #252525;
+}
+
+.pages-title i:hover {
+    background: #bcbbbb;
+  }
 
 .page-links {
   display: flex;
@@ -338,9 +357,28 @@ hr {
 .contacts-icons{
     display: flex;
     align-items: center;
-  justify-content: space-between;
-  margin: 4px 12px;
+    margin: 6px;
 }
+
+.contacts-icons h4{
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.contacts-icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    color: #252525;
+}
+
+.contacts-icons i:hover {
+    background: #bcbbbb;
+  }
 
 
 .friend-list {
