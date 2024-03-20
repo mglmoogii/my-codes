@@ -196,6 +196,7 @@ nav {
 }
 
 .all-buttons p{
+    text-wrap: none;
     background-color: #ccc;
     border-radius: 10px;
 }
