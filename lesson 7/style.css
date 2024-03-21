@@ -290,6 +290,7 @@ body {
   width: 100%;
   flex-wrap: nowrap;
   overflow: auto;
+  overflow: hidden;
 }
 
 .all-buttons p {
@@ -307,6 +308,10 @@ body {
 
 .all-buttons p:hover {
   background-color: #DDD;
+}
+
+.all-buttons:last-child{
+  margin-right: 0;
 }
 
 .list-container {
