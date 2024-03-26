@@ -11,13 +11,13 @@ h1 {
   color: #333;
   font-family: tahoma;
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: 50;
   line-height: 1.5;
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  width: 550px;
+  width: 600px;
 }
 
 h1 span {
@@ -28,12 +28,12 @@ h1 span {
   background-color: #11c86d;
   color: #333;
   display: block;
-  font-weight: 700;
+  font-weight: 600;
   overflow: hidden;
   position: absolute;
-  padding-left: 0.5rem;
+  padding-left: 0.1rem;
   top: 0.2rem;
-  left: 120px;
+  left: 200px;
   animation: openclose 5s ease-in-out infinite;
 }
 
@@ -46,11 +46,11 @@ h1 span {
     width: 0;
   }
   15% {
-    width: 230px;
+    width: 160px;
   }
   30% {
     top: 0.2rem;
-    width: 230px;
+    width: 160px;
   }
   33% {
     top: 0.2rem;
@@ -65,11 +65,11 @@ h1 span {
   }
   48% {
     top: -4.5rem;
-    width: 230px;
+    width: 260px;
   }
   62% {
     top: -4.5rem;
-    width: 230px;
+    width: 260px;
   }
   66% {
     top: -4.5rem;
@@ -83,11 +83,11 @@ h1 span {
   }
   86% {
     top: -9rem;
-    width: 230px;
+    width: 290px;
   }
   95% {
     top: -9rem;
-    width: 230px;
+    width: 290px;
   }
   98% {
     top: -9rem;

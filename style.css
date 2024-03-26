@@ -10,8 +10,8 @@ header {
     height: 70px;
     display: flex;
     /* margin-top: -50px; */
-    padding: 0 60px;
-    padding-top: 20px;
+    padding: 0 40px;
+    padding-top: 10px;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -21,7 +21,6 @@ header {
     background-color: rgba(255, 255, 255, 0.8   );
 }
 main{
-    /* margin-top: 30px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +47,7 @@ flex-direction: column;
 
 .name{
     color: #11C86D;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
     display: flex;
 }
@@ -60,6 +59,8 @@ flex-direction: column;
 .path {
     color: #11C86D;
 }
+
+
 hr{
     height:2px;
     border-width:0;
@@ -76,12 +77,14 @@ hr{
     border: 2px solid #59ce94;
     width: 150px;
 }
+
 .introduction {
     display: flex;
     align-items: center;
     width: 90vw;
     justify-content: space-around;
 }
+
 /* about хэсгийн css */
 .hello1{
     font-weight: 600;
