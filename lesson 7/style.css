@@ -274,8 +274,8 @@ body {
 
 .container {
   background: #f9f9f9;
-  padding-left: 17%;
-  margin-left: 2%;
+  padding-left: 16%;
+  padding-right: 1%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -293,9 +293,14 @@ body {
   overflow: hidden;
 }
 
+.all-buttons:last-child{
+  margin-right: 0;
+}
+
 .all-buttons p {
   display: flex;
   align-items: center;
+  word-wrap: none;
   white-space: nowrap;
   font-size: inherit;
   margin-right: 1rem;
@@ -310,13 +315,21 @@ body {
   background-color: #DDD;
 }
 
+<<<<<<< HEAD
+/* .all-buttons.active{
+  background-color: #606060;
+  color: white;
+  border-color: #eee;
+} */
+=======
 .all-buttons:last-child{
   margin-right: 0;
 }
+>>>>>>> ce455fb76bf3b3c1cb0269d8b0646cfd6c8e29b9
 
 .list-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 16px;
   grid-row-gap: 30px;
   margin-top: 15px;
@@ -336,6 +349,11 @@ body {
   width: 35px;
   margin-right: 10px;
   border-radius: 50%;
+}
+
+.vid-list .nav video{
+  width: 35px;
+  height: auto;
 }
 
 .vid-info {
