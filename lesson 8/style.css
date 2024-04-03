@@ -105,7 +105,7 @@ nav {
   padding: 10px;
 }
 
-/* .bodymain {
+.bodymain {
   display: flex;
   flex-direction: row;
   background-color: #f0f2f5;
@@ -208,4 +208,4 @@ nav {
   flex-basis: 15%;
   height: 100vh;
   background-color: chocolate;
-}  */
+} 

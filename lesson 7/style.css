@@ -315,17 +315,11 @@ body {
   background-color: #DDD;
 }
 
-<<<<<<< HEAD
-/* .all-buttons.active{
+.all-buttons.active{
   background-color: #606060;
   color: white;
   border-color: #eee;
-} */
-=======
-.all-buttons:last-child{
-  margin-right: 0;
 }
->>>>>>> ce455fb76bf3b3c1cb0269d8b0646cfd6c8e29b9
 
 .list-container {
   display: grid;
